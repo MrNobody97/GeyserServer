@@ -82,7 +82,7 @@ legacy-ping-passthrough: false
 ping-passthrough-interval: 3
 
 # Maximum amount of players that can connect
-max-players: 100
+max-players: 20
 
 # If debug messages should be sent through console
 debug-mode: false
