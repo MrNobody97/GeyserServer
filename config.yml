@@ -18,10 +18,10 @@ bedrock:
   # This option is for the plugin version only.
   clone-remote-port: false
   # The MOTD that will be broadcasted to Minecraft: Bedrock Edition clients. This is irrelevant if "passthrough-motd" is set to true
-  motd1: "SwangaTanga"
-  motd2: "ServerPrivato."
+  motd1: "SwangaTanka"
+  motd2: "PrivateServer."
   # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
-  server-name: "SwangaTanga"
+  server-name: "SwangaTanka"
 remote:
   # The IP address of the remote (Java Edition) server
   # If it is "auto", for standalone version the remote address will be set to 127.0.0.1,
@@ -82,7 +82,7 @@ legacy-ping-passthrough: false
 ping-passthrough-interval: 3
 
 # Maximum amount of players that can connect
-max-players: 20
+max-players: 100
 
 # If debug messages should be sent through console
 debug-mode: false
@@ -105,7 +105,7 @@ show-cooldown: true
 show-coordinates: true
 
 # The default locale if we dont have the one the client requested. Uncomment to not use the default system language.
-default-locale: it_it
+# default-locale: en_us
 
 # Configures if chunk caching should be enabled or not. This keeps an individual
 # record of each block the client loads in. This feature does allow for a few things
@@ -149,7 +149,7 @@ metrics:
   # If metrics should be enabled
   enabled: true
   # UUID of server, don't change!
-  uuid: 9542e611-3df3-4edc-8374-6b16340f3930
+  uuid: 02b7cbfa-023c-4ff3-b5a1-2af9e221ccfe
 
 # ADVANCED OPTIONS - DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!
 
@@ -169,6 +169,6 @@ enable-proxy-connections: false
 
 # Whether to use direct server methods to retrieve information such as block states.
 # Turning this off for Spigot will stop NMS from being used but will have a performance impact.
-use-adapters: false
+use-adapters: true
 
 config-version: 4
