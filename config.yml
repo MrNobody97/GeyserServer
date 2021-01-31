@@ -82,7 +82,7 @@ legacy-ping-passthrough: false
 ping-passthrough-interval: 3
 
 # Maximum amount of players that can connect
-max-players: 100
+max-players: 20
 
 # If debug messages should be sent through console
 debug-mode: false
@@ -147,7 +147,7 @@ xbox-achievements-enabled: false
 # https://bstats.org/plugin/server-implementation/GeyserMC
 metrics:
   # If metrics should be enabled
-  enabled: true
+  enabled: false
   # UUID of server, don't change!
   uuid: 02b7cbfa-023c-4ff3-b5a1-2af9e221ccfe
 
